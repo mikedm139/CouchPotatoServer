@@ -115,7 +115,7 @@ class Base(TorrentProvider):
         }
 
     def loginSuccess(self, output):
-        return 'index.php' in output.lower()
+        return 'welcome back' in output.lower()
 
     loginCheckSuccess = loginSuccess
 
